@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Menu() {
   return (
-    <div className=" flex gap-5 font-bold">
+    <div className=" flex gap-5 font-normal ">
       <NavLink to={"/"}>
         <h3>Accueil</h3>
       </NavLink>
@@ -18,9 +18,10 @@ function Menu() {
         <h3 className="">Contact</h3>
       </NavLink>
       <NavLink to={"/cart"}>
-        <div>
+        <div className="flex relative  ">
           <img src={CartPhoto} alt="" />
-          <h4>1</h4>
+
+          <h4 className="relative bottom-4 mb-0">1</h4>
         </div>
       </NavLink>
     </div>

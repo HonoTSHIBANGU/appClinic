@@ -5,7 +5,7 @@ import Logo from "./Logo";
 
 function Navigation() {
   return (
-    <div className="flex relative top-5 justify-around">
+    <div className="w-auto flex relative top-1 justify-between border-b  border-solid border-gray-700 px-[150px] p-4  ">
       <Logo />
       <RechercheVille />
       <Menu />

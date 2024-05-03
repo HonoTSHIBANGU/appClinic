@@ -8,4 +8,10 @@ export default {
     extend: {},
   },
   plugins: [],
+  theme: {
+    fontFamily: {
+      'sans': ['Work Sans', 'sans-serif']
+    }
+  }
 }
+
