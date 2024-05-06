@@ -28,7 +28,7 @@ function Hero() {
                 <p className="text-center">100 % client satisfait</p>
               </div>
             </div>
-            <div className=" flex gap-4 relative right-12 ">
+            <div className=" flex gap-4 relative right-16 ">
               <button className="bg-blue-500 w-40 rounded-full text-black  p-2">
                 Commander
               </button>
