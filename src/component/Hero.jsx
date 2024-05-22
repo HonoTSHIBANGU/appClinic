@@ -30,9 +30,11 @@ function Hero() {
               </div>
             </div>
             <div className=" flex gap-4 relative right-16 ">
-              <button className="bg-blue-500 w-40 rounded-full text-black  p-2">
-                Commander
-              </button>
+              <Link to="/login">
+                <button className="bg-blue-500 w-40 rounded-full text-black  p-2">
+                  Commander
+                </button>
+              </Link>
               <Link to="/contact">
                 <button className="bg-yellow-400 w-40 rounded-full text-white p-2">
                   Nous contacter
