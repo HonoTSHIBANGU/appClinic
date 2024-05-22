@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import produits from "../../data/produits.json";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 function DescriptionProduits() {
   const { NomProduit } = useParams();
@@ -11,12 +11,6 @@ function DescriptionProduits() {
   const handleAddToCart = () => {
     // Logique pour ajouter le produit au panier
     console.log("Produit ajouté au panier");
-  };
-
-  const handleOrder = () => {
-    // Logique pour commander le produit (ou naviguer vers la page de connexion)
-    // Naviguer vers la page de connexion (LoginPage) lorsque le bouton "Commander" est cliqué
-    navigate("/loginpage");
   };
 
   return (
@@ -40,12 +34,11 @@ function DescriptionProduits() {
             >
               Ajouter au panier
             </button>
-            <button
-              className="bg-yellow-400 rounded-full p-2 text-md font-semibold"
-              onClick={handleOrder}
-            >
-              Commander
-            </button>
+            <Link to="/login">
+              <button className="bg-yellow-400 rounded-full p-2 text-md font-semibold">
+                Commander
+              </button>
+            </Link>
           </div>
         </div>
       </div>
