@@ -2,7 +2,8 @@ import React from "react";
 import imageAccueil from "../assets/image/imageAccueil.jpg";
 import motif from "../assets/image/motif.jpg";
 import { Link, Outlet } from "react-router-dom";
-import search from "../assets/image/search.svg";
+
+import RechercheArticles from "./RechercheArticles";
 
 function Hero() {
   return (
@@ -32,9 +33,11 @@ function Hero() {
               <button className="bg-blue-500 w-40 rounded-full text-black  p-2">
                 Commander
               </button>
-              <button className="bg-yellow-400 w-40 rounded-full text-white p-2">
-                Nous contacter
-              </button>
+              <Link to="/contact">
+                <button className="bg-yellow-400 w-40 rounded-full text-white p-2">
+                  Nous contacter
+                </button>
+              </Link>
             </div>
           </div>
           <img
@@ -60,18 +63,7 @@ function Hero() {
               </Link>
             </div>
 
-            <div className="flex-1 flex relative   bg-gray-200  rounded-md p-2 ">
-              <button className="p-2">
-                <img src={search} alt="" />
-              </button>
-              <input
-                className=" w-full  relative text-center bg-white rounded-md border border-2 border-blue-500 "
-                type="search"
-                name=""
-                placeholder="Recherche..."
-                id=""
-              />
-            </div>
+            <RechercheArticles />
           </div>
           <Outlet />
         </div>

@@ -22,11 +22,11 @@ const ContactForm = () => {
 
   return (
     <form
-      className="flex flex-col gap-6"
+      className="flex flex-col gap-10 my-14 "
       onSubmit={handleSubmit(onSubmitHandler)}
     >
       <input
-        className="border border-2 border-blue-500 rounded-md px-1 py-0 focus:outline-none focus:border-blue-blue-500"
+        className="border border-2 border-blue-500 rounded-md  px-1 py-1 focus:outline-none focus:border-blue-blue-500"
         type="text"
         {...register("name", {
           required: true,
@@ -50,7 +50,7 @@ const ContactForm = () => {
       )}
 
       <input
-        className="border border-2 border-blue-500 rounded-md px-1  py-0 focus:outline-none focus:border-blue-blue-500"
+        className="border border-2 border-blue-500 rounded-md px-1  py-1 focus:outline-none focus:border-blue-blue-500"
         type="email"
         {...register("email", { required: true })}
         placeholder="Adresse e-mail"
@@ -68,7 +68,7 @@ const ContactForm = () => {
         <span className="text-red-500">Le message est requis</span>
       )}
 
-      <button className="bg-blue-500 rounded-md" type="submit">
+      <button className="bg-blue-300 p-1 rounded-md" type="submit">
         Envoyer
       </button>
     </form>
