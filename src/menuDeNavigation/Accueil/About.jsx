@@ -1,14 +1,22 @@
 import React from "react";
+import Scaneur from "../../assets/image/scaneur.jpg";
 
 function About() {
   return (
     <div>
-      <p className="my-40 mx-80 text-xl">
-        Bienvenue chez <span className="text-blue-500">App</span>
+      <img
+        className="h-80 w-[95%] mx-10 my-1 object-cover "
+        src={Scaneur}
+        alt=""
+      />
+      <p className="my-2 text-xl flex items-center justify-center ">
+        Bienvenue chez &nbsp;
+        <span className="text-blue-500">App</span>
         <span className="text-red-600"> Cli</span>
-        <span className="text-yellow-400">nic</span> où nous vous offrons une
-        expérience d'achat unique et des produits de qualité.
+        <span className="text-yellow-400">nic</span> &nbsp; où nous vous offrons
+        une expérience d'achat unique et des produits de qualité.
       </p>
+      {/* <img src={} alt="" /> */}
     </div>
   );
 }
