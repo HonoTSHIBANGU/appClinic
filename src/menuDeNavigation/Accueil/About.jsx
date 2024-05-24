@@ -21,7 +21,7 @@ function About() {
       <p className="my-2 mx-16 text-xl">
         Des equipements qui vous fourniront des resultats d'examens d'imagerie
         <br />
-        médicale de la plus haute qualité pour nos patients.
+        médicale de la plus haute qualité pour vos patients.
       </p>
     </div>
   );
