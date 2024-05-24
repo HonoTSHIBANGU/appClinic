@@ -19,7 +19,8 @@ function About() {
       </p>
       <img className="h-80 w-[40%]  mx-10  object-cover" src={examen} alt="" />
       <p className="my-2 mx-14 text-xl">
-        En fournissant des examens d'imagerie médicale de la plus haute qualité
+        Des equipements qui vous fourniront des examens d'imagerie médicale de
+        la plus haute qualité
         <br />
         pour nos patients.
       </p>
