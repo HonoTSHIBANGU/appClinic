@@ -18,9 +18,10 @@ function About() {
         une expérience d'achat unique et des produits de qualité.
       </p>
       <img className="h-80 w-[40%]  mx-10  object-cover" src={examen} alt="" />
-      <p className="my-2 mx-10 text-xl">
-        Des equipements qui vous fourniront des examens d'imagerie médicale de
-        la <br /> plus haute qualité pour nos patients.
+      <p className="my-2 mx-16 text-xl">
+        Des equipements qui vous fourniront des resultats d'examens d'imagerie
+        <br />
+        médicale de la plus haute qualité pour nos patients.
       </p>
     </div>
   );
