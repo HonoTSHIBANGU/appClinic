@@ -26,7 +26,7 @@ const ContactForm = () => {
       onSubmit={handleSubmit(onSubmitHandler)}
     >
       <input
-        className="border border-2 border-blue-500 rounded-md  px-1 py-1 focus:outline-none focus:border-blue-blue-500"
+        className="border border-2 border-blue-300 rounded-md  px-1 py-1 focus:outline-none focus:border-blue-blue-500"
         type="text"
         {...register("name", {
           required: true,
@@ -50,7 +50,7 @@ const ContactForm = () => {
       )}
 
       <input
-        className="border border-2 border-blue-500 rounded-md px-1  py-1 focus:outline-none focus:border-blue-blue-500"
+        className="border border-2 border-blue-300 rounded-md px-1  py-1 focus:outline-none focus:border-blue-blue-500"
         type="email"
         {...register("email", { required: true })}
         placeholder="Adresse e-mail"
@@ -60,7 +60,7 @@ const ContactForm = () => {
       )}
 
       <textarea
-        className="border border-2 border-blue-500 rounded-md px-1 h-40 focus:outline-none focus:border-blue-blue-500 "
+        className="border border-2 border-blue-300 rounded-md px-1 h-40 focus:outline-none focus:border-blue-blue-500 "
         {...register("message", { required: true })}
         placeholder="Message"
       ></textarea>

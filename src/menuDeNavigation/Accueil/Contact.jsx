@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
-    <div className="flex gap-80 justify-center  p-20  m-1 ">
+    <div className="flex gap-80 justify-center  p-20  m-1   ">
       <div className="flex flex-col gap-1 items-center ">
         <div className="flex flex-col gap-14 ">
           <h1 className="font-sm text-5xl relative">Nous contacter </h1>

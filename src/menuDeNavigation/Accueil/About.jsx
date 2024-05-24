@@ -1,5 +1,6 @@
 import React from "react";
 import Scaneur from "../../assets/image/scaneur.jpg";
+import examen from "../../assets/image/examen.jpg";
 
 function About() {
   return (
@@ -16,7 +17,12 @@ function About() {
         <span className="text-yellow-400">nic</span> &nbsp; où nous vous offrons
         une expérience d'achat unique et des produits de qualité.
       </p>
-      {/* <img src={} alt="" /> */}
+      <img className="h-80 w-[40%]  mx-10  object-cover" src={examen} alt="" />
+      <p className="my-2 mx-14 text-xl">
+        En fournissant des examens d'imagerie médicale de la plus haute qualité
+        <br />
+        pour nos patients.
+      </p>
     </div>
   );
 }
