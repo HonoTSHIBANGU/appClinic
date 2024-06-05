@@ -41,7 +41,7 @@ function Hero() {
             </div>
           </div>
           <img
-            className="flex-1 object-cover h-[50vh] md:h-[90vh] relative left-0 md:left-6 bottom-2"
+            className="flex-1 object-cover h-[50vh] md:h-[90vh] relative left-0 md:left-6 "
             src={imageAccueil}
             alt="Accueil"
           />
